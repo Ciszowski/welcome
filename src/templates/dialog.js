@@ -20,13 +20,12 @@ export default function DialogTemplate(props)
 {
     const open = useSelector((state) => state.welcomeRX.isOpen)
 
-    const [play, { stop, isPlaying }] = useSound(
+    const [play, { stop }] = useSound(
         props.props.mp3,
         { loop: true }
       );
 
     useEffect(() =>{
-        console.log("Is playing ", isPlaying )
         if (open)
             play();
         else

@@ -32,7 +32,7 @@
     "modals" : {
         "welcome" : {
             "title" : "Bonjour Laval !",
-            "logo" : "http://localhost:3000/static/images/logo-laval.svg",          
+            "logo" : "/static/images/logo-laval.svg",          
             "mp3": "/static/sons/welcome-laval.mp3"
         }
     }
