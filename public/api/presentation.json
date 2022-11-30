@@ -1,0 +1,39 @@
+{
+    "presentation": {
+        "header" : {
+            "title" : "Ville de Laval",
+            "logo" : "/static/images/logo-laval.svg",
+            "description" : "Avec une population dépassant les 400 000 personnes, Laval est la 3e plus grande ville de la province. C'est également une des régions du Québec où la croissance démographique est la plus élevée."
+        },
+        "main" : {
+            "contenu 1" : {
+                "title" : "Ville accueillante",
+                "description" : "Laval se veut accueillante, ouverte, respectueuse de tous et soucieuse de l'inclusion des citoyens dans le développement de la ville, comme le démontrent les valeurs porteuses de la vision Laval 2035. Les différentes actions qu’elle déploie visent à coordonner harmonieusement l’action des partenaires pour favoriser l’inclusion sociale et culturelle de tous les Lavallois.",
+                "logo":"/static/images/acceuil-laval.jpg"
+                
+            },
+            "contenu 2": {
+                "title" : "Ville en mouvance",
+                "description" : "Laval, c’est l’équilibre entre des espaces vert​s, des secteurs commerciaux et des quartiers résidentiels. ​Ville en constante évolution, Laval est dynamique, située au croisement d’axes routiers majeurs. Avec cette position géographique stratégique et son vaste réseau de transport en commun ​​​cette région est une destination facilement accessible et une plaque tournante entre Montréal et les Laurentides.",
+                "logo": "/static/images/quartier-laval.jpg"
+            },
+            "contenu 3": {
+                "title" : "Ville et région administrative",
+                "description" : "Les municipalités régionales de comté (MRC) sont des entités administratives qui assurent la gestion régionale des collectivités locales. En tant que municipalité locale titulaire de compétences attribuées aux MRC, la Ville de Laval s'occupe notamment de :",
+                "logo" : "/static/images/affaire-laval.jpg"
+            }
+        },
+        "footer" : {
+            "title" : "Au plaisir de vous voir parmis nous !",
+            "logo" : "/static/images/laval-aerien.jpg",
+            "description" : "Enrichissez votre vie en dehors des études avec la multitude d’activités culturelles, sportives et sociales qui ont cours sur le campus."
+        }
+    },
+    "modals" : {
+        "welcome" : {
+            "title" : "Bonjour Laval !",
+            "logo" : "http://localhost:3000/static/images/logo-laval.svg",          
+            "mp3": "/static/sons/welcome-laval.mp3"
+        }
+    }
+}
