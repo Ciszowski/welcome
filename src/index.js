@@ -9,14 +9,12 @@ import { combineReducers, createStore, applyMiddleware, compose } from 'redux';
 import welcomeRX from './reducers/welcomeRX';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const reducer = combineReducers({ welcomeRX });
+const rootReducer = combineReducers({ welcomeRX });
+const devTools = process.env.NODE_ENV === 'development' ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__() : null
 
-export const store = createStore(
-  reducer, {}, 
-  compose(
-        applyMiddleware(thunk),
-        window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-      )
+const store = createStore(
+  rootReducer,
+  compose(applyMiddleware(thunk), devTools)
 );
 
 root.render(
