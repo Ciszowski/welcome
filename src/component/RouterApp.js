@@ -14,6 +14,6 @@ function RouterApp()
             </Router>
         </React.Fragment>
     )
-};
+}
 
 export default RouterApp;

@@ -2,25 +2,25 @@ import React, { PureComponent } from 'react';
 import { 
     Container
 } from '@mui/material';
-import CardTemplate from '../../templates/card';
+import CardTemplate from '../../templates/CardTemplate';
+import DialogTemplate from '../../templates/DialogTemplate';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as action from '../../reducers/actions/welcomeAction'
 import PropTypes from 'prop-types';
-import DialogTemplate from '../../templates/dialog';
 
 const propTypes = {
     presentation: PropTypes.object,
     modals: PropTypes.object,
     dispatch: PropTypes.func.isRequired,
     status: PropTypes.string
-};
+}
   
 const defaultProps = {
     presentation: {},
     modals: {},
     status: ''
-};
+}
 
 class Welcome extends PureComponent
 {
@@ -52,9 +52,9 @@ class Welcome extends PureComponent
             )
         }
     }
-};
-Welcome.propTypes = propTypes;
-Welcome.defaultProps = defaultProps;
+}
+Welcome.propTypes = propTypes
+Welcome.defaultProps = defaultProps
 
 const mapStateToProps = state => ({
     presentation : state.welcomeRX.presentation,

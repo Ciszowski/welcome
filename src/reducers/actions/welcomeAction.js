@@ -1,5 +1,5 @@
 import * as types from '../constants/searchTypes';
-import getIntro from "../../component/api/getIntroduction";
+import getIntro from "../../component/api/getIntro";
 
 function welcomeApi(dispatch)
 {
@@ -15,5 +15,5 @@ export function welcomeAction(s) {
     return (dispatch) =>
     {
         welcomeApi(dispatch);
-    };
+    }
 }

@@ -7,7 +7,7 @@ function App() {
     <React.Fragment>
       <RouterApp />
     </React.Fragment>
-  );
+  )
 }
 
 export default App;

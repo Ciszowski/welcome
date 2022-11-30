@@ -7,7 +7,7 @@ const initialState =
     isOpen : false
 };
 
-const welcomeRX = (state = initialState, action) =>
+const welcomeRX = (state = initialState, action = {}) =>
 {
     switch(action.type)
     {
@@ -28,4 +28,4 @@ const welcomeRX = (state = initialState, action) =>
     }
 }
 
-export {welcomeRX as default };
+export {welcomeRX as default }

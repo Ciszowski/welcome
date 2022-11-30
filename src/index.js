@@ -5,15 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
-import { combineReducers, createStore, applyMiddleware, compose } from 'redux';
+import { applyMiddleware, compose } from 'redux';
 import welcomeRX from './reducers/welcomeRX';
+import {configureStore, combineReducers} from "@reduxjs/toolkit";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const rootReducer = combineReducers({ welcomeRX });
+const reducer = combineReducers({ welcomeRX });
 const devTools = process.env.NODE_ENV === 'development' ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__() : null
 
-const store = createStore(
-  rootReducer,
+const store = configureStore({reducer},
   compose(applyMiddleware(thunk), devTools)
 );
 
