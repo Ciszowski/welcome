@@ -10,7 +10,7 @@ scanner(
             'sonar.projectKey': 'laval-react-project',
             'sonar.projectVersion': '0.0.1',
             'sonar.sources': 'src',
-            'sonar.language': 'js',
+            'sonar.language': '.js,.jsx',
             'sonar.javascript.lcov.reportPaths' : 'test-coverage/lcov.info',
             'sonar.exclusions': '',
             'sonar.sourceEncoding': 'UTF-8',
