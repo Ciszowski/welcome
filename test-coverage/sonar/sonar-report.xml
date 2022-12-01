@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
     <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\templateCard.test.js">
-        <testCase name="My connected Card component" duration="149"/>
-    </file>
-    <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\templateDialog.test.js">
-        <testCase name="My connected Dialog component" duration="210"/>
+        <testCase name="My connected Card component" duration="147"/>
     </file>
     <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\welcome.test.js">
-        <testCase name="My connected Welcome component" duration="85"/>
+        <testCase name="My connected Welcome component" duration="98"/>
     </file>
-    <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\app.test.js">
-        <testCase name="component App should render component sidenav in a container" duration="67"/>
+    <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\templateDialog.test.js">
+        <testCase name="My connected Dialog component" duration="288"/>
     </file>
     <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\router.test.js">
-        <testCase name="ButtonLogin should pass" duration="79"/>
+        <testCase name="ButtonLogin should pass" duration="85"/>
+    </file>
+    <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\app.test.js">
+        <testCase name="component App should render component sidenav in a container" duration="99"/>
+    </file>
+    <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\index.test.js">
+        <testCase name="Application root should render without crashing" duration="4"/>
     </file>
 </testExecutions>
