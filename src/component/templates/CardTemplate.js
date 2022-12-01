@@ -15,9 +15,8 @@ import ShareIcon from '@mui/icons-material/Share';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 
   
-const ExpandMore = styled((props)=> {
-  const { expand, ...other } = props;
-  return <IconButton {...other} />;
+const ExpandMore = styled(()=> {
+  return <IconButton />;
 })(({ theme, expand }) => ({
   transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
   marginLeft: 'auto',

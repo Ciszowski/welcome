@@ -11,7 +11,7 @@ function welcomeApi(dispatch)
         })
     })
 }
-export function welcomeAction(s) {
+export function welcomeAction() {
     return (dispatch) =>
     {
         welcomeApi(dispatch);
