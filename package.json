@@ -49,6 +49,8 @@
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
     "docker-compose": "^0.23.17",
+    "eslint": "^5.12.0",
+    "eslint-plugin-react": "^7.31.11",
     "jest-sonar-reporter": "^2.0.0",
     "react-redux": "^8.0.5",
     "react-router": "^6.4.3",
