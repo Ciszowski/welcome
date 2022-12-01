@@ -2,8 +2,8 @@ import React, { PureComponent } from 'react';
 import { 
     Container
 } from '@mui/material';
-import CardTemplate from '../../templates/CardTemplate';
-import DialogTemplate from '../../templates/DialogTemplate';
+import CardTemplate from '../templates/CardTemplate';
+import DialogTemplate from '../templates/DialogTemplate';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as action from '../../reducers/actions/welcomeAction'
@@ -36,7 +36,7 @@ class Welcome extends PureComponent
         if (this.props.status === "DONE")
         {
             return(
-                <Container maxWidth="lg" className="welcome-container">
+                <Container maxWidth="lg" className="welcome-container" data-testid="Welcome">
                     <CardTemplate props={this.props.presentation.header}/>
                     <DialogTemplate props={this.props.modals.welcome} />
                     {

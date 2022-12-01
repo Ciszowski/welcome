@@ -5,6 +5,7 @@
   "dependencies": {
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "history": "^5.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^2.1.3",
@@ -14,12 +15,19 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test-coverage": "del /S /Q test-coverage && react-scripts test --coverageDirectory test-coverage --coverage --watchAll=false --testResultsProcessor jest-sonar-reporter"
   },
   "eslintConfig": {
     "extends": [
-      "react-app"
+      "react-app",
+      "react-app/jest"
     ]
+  },
+  "jestSonar": {
+    "reportPath": "test-coverage/sonar",
+    "reportFile": "sonar-report.xml",
+    "indent": 4
   },
   "browserslist": {
     "production": [
@@ -41,6 +49,7 @@
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
     "docker-compose": "^0.23.17",
+    "jest-sonar-reporter": "^2.0.0",
     "react-redux": "^8.0.5",
     "react-router": "^6.4.3",
     "react-router-dom": "^6.4.3",

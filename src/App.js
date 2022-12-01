@@ -4,10 +4,10 @@ import RouterApp from './component/RouterApp';
 
 function App() {
   return (
-    <React.Fragment>
+    <React.Fragment >
+      <div data-testid="app"/>
       <RouterApp />
     </React.Fragment>
   )
 }
-
 export default App;

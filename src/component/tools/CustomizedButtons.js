@@ -2,7 +2,7 @@ import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import {Button} from '@mui/material';
 import { useDispatch } from 'react-redux';
-import { HANDLECLICK } from '../reducers/constants/searchTypes';
+import { HANDLECLICK } from '../../reducers/constants/searchTypes';
 
 const CustomButtons = styled(Button)({
   boxShadow: 'none',

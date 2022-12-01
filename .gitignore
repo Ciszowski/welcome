@@ -27,3 +27,9 @@ yarn-error.log*
 sonarqube/extensions
 sonarqube/data
 sonarqube/logs
+
+test-coverage/lcov-report
+test-coverage/coverage-final.json
+test-coverage/lcov.info
+test-coverage/clover.xml
+

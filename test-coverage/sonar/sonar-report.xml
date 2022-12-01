@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\templateCard.test.js">
+        <testCase name="My connected Card component" duration="137"/>
+    </file>
+    <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\welcome.test.js">
+        <testCase name="My connected Welcome component" duration="100"/>
+    </file>
+    <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\templateDialog.test.js">
+        <testCase name="My connected Dialog component" duration="181"/>
+    </file>
+</testExecutions>
