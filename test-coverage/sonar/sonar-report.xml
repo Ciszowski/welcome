@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
     <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\templateCard.test.js">
-        <testCase name="My connected Card component" duration="137"/>
-    </file>
-    <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\welcome.test.js">
-        <testCase name="My connected Welcome component" duration="100"/>
+        <testCase name="My connected Card component" duration="149"/>
     </file>
     <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\templateDialog.test.js">
-        <testCase name="My connected Dialog component" duration="181"/>
+        <testCase name="My connected Dialog component" duration="210"/>
+    </file>
+    <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\welcome.test.js">
+        <testCase name="My connected Welcome component" duration="85"/>
+    </file>
+    <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\app.test.js">
+        <testCase name="component App should render component sidenav in a container" duration="67"/>
+    </file>
+    <file path="C:\Users\anthony.ciszowski\Documents\programmation\javascript\ReactJS\laval-app\src\component\__tests__\router.test.js">
+        <testCase name="ButtonLogin should pass" duration="79"/>
     </file>
 </testExecutions>
